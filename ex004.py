@@ -1,0 +1,11 @@
+print('===== DESAFIO 04 =====')
+x = (input('Digite algo: '))
+print('Tipo primitivo é: ', type(x))
+print('Só tem espaços? ', x.isspace())
+print('É numero?', x.isnumeric())
+print('É alfabético?', x.isalpha())
+print('É alfanumérico? ', x.isalnum())
+print('Está em maiúsculas?', x.isupper())
+print('Está em minúsculas?', x.islower())
+print('Está capitalizada?', x.istitle())
+

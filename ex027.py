@@ -1,0 +1,5 @@
+print("===== DESAFIO 27 =====")
+nome = str(input('Digite seu nome: ')).strip()
+divisor = nome.split()
+print('Primeiro Nome: {}'.format(divisor[0]))
+print('Ultimo Nome: {}'.format(divisor[len(divisor)-1]))

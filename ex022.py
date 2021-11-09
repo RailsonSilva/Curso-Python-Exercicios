@@ -1,0 +1,8 @@
+print('===== DESAFIO 22 =====')
+nome = str(input('Qual o seu nome? ')).strip()
+print('Seu nome em maiúsculo é', nome.upper())
+print('Seu nome em minúsculo é', nome.lower())
+espacos = nome.count(' ')
+print('Seu nome sem espaços possui {} letras'.format((len(nome)) - espacos))
+dividido = nome.split()
+print('Seu primeiro nome tem {} letras'.format(len(dividido[0])))
